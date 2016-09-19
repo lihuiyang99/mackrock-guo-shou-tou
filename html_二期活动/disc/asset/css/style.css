@@ -1,0 +1,1310 @@
+/*=========================================*/
+/*Text Color*/
+/*=========================================*/
+.cwhite {
+  color: #fff;
+}
+.cblack {
+  color: #000;
+}
+.c1 {
+  color: #111;
+}
+.c2 {
+  color: #222;
+}
+.c3 {
+  color: #333;
+}
+.c4 {
+  color: #444;
+}
+.c5 {
+  color: #555;
+}
+.c6 {
+  color: #666;
+}
+.cc {
+  color: #ccc;
+}
+.c6 {
+  color: #666;
+}
+.c7 {
+  color: #777;
+}
+.c8 {
+  color: #888;
+}
+.c9 {
+  color: #999;
+}
+.bln {
+  border-left: none;
+}
+.brn {
+  border-right: none;
+}
+.btn {
+  border-top: none;
+}
+.bbn {
+  border-bottom: none;
+}
+.b1s {
+  border: 1px solid #ccc;
+}
+.b1d {
+  border: 1px dotted #ccc;
+}
+.bl1s {
+  border-left: 1px solid #ccc;
+}
+.br1s {
+  border-right: 1px solid #ccc;
+}
+.bt1s {
+  border-top: 1px solid #ccc;
+}
+.bb1s {
+  border-bottom: 1px solid #ccc;
+}
+.bl1d {
+  border-left: 1px dotted #ccc;
+}
+.br1d {
+  border-right: 1px dotted #ccc;
+}
+.bt1d {
+  border-top: 1px dotted #ccc;
+}
+.bb1d {
+  border-bottom: 1px dotted #ccc;
+}
+.fb {
+  font-weight: bold;
+}
+.fn {
+  font-weight: normal;
+}
+.fyh {
+  font-family: "Microsoft YaHei", "微软雅黑";
+}
+.fs {
+  font-family: "simsun", "宋体";
+}
+.t2 {
+  text-indent: 2em;
+}
+.tdlt {
+  text-decoration: line-through;
+}
+.tdu {
+  text-decoration: underline;
+}
+.tdn {
+  text-decoration: none;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.cb {
+  clear: both;
+}
+.cl {
+  clear: left;
+}
+.cr {
+  clear: rigth;
+}
+.clearfloat {
+  height: 0;
+  font-size: 0px;
+  clear: both;
+  line-height: 0;
+}
+.cf:before,
+.cf:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+.vm {
+  verticle-align: middle;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.abs-right {
+  position: absolute;
+  right: 0;
+}
+.zoom {
+  zoom: 1;
+}
+.hidden {
+  visiility: hidden;
+}
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.ohz {
+  overflow: hidden;
+  zoom: 1;
+}
+.tdau a:hover {
+  text-decoration: underline;
+}
+.w {
+  width: 100%;
+}
+.h {
+  height: 100%;
+}
+.mauto {
+  margin: 0 auto;
+}
+html {
+  overflow: -moz-scrollbars-vertical;
+}
+.cnp {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.enp {
+  text-align: justify;
+  text-justify: newspaper;
+}
+/*=========================================*/
+/*My CustomNav*/
+/*=========================================*/
+.customNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999999999;
+  width: 220px;
+}
+.customNav li {
+  float: left;
+  margin: 1px;
+}
+.customNav a {
+  display: block;
+  width: 60px;
+  line-height: 20px;
+  text-align: left;
+  background-color: #eaebec;
+  margin-top: 1px;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  font-family: arial;
+  overflow: hidden;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.customNav a:hover {
+  color: #fff;
+  text-decoration: underline;
+  background-color: #333;
+  border: 1px solid #000;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+  background: #fff;
+}
+html {
+  font-family: "FZLanTingHei-L-GBK", "Helvetica Neue", "微软雅黑", "黑体", Helvetica, STHeiTi, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:visited {
+  color: #1a1a1a;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.wrap {
+  width: 750px;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+}
+.loading {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -25px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+}
+.cover {
+  background: url(../img/cover/bg.png) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.cover .earth {
+  position: absolute;
+  top: 20px;
+}
+.cover .title {
+  position: absolute;
+  top: 150px;
+  z-index: 2;
+}
+.cover .title img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cover .title img:nth-of-type(2) {
+  top: 155px;
+}
+.cover .lighthouse {
+  position: absolute;
+  top: 527px;
+}
+.cover .lighthouse span {
+  position: absolute;
+}
+.cover .lighthouse span img {
+  position: absolute;
+  z-index: 2;
+}
+.cover .lighthouse span b {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../img/other/light.png) no-repeat center center;
+  background-size: cover;
+  z-index: 2;
+  display: none;
+}
+.cover .lighthouse span:nth-of-type(1) {
+  left: 72px;
+  top: 10px;
+}
+.cover .lighthouse span:nth-of-type(1) b {
+  left: 30px;
+  top: -30px;
+}
+.cover .lighthouse span:nth-of-type(2) {
+  left: 449px;
+  top: 94px;
+}
+.cover .lighthouse span:nth-of-type(2) b {
+  left: 85px;
+  top: -30px;
+}
+.cover .lighthouse span:nth-of-type(3) {
+  left: 111px;
+  top: 282px;
+  z-index: 10;
+}
+.cover .lighthouse span:nth-of-type(3) b {
+  left: 180px;
+  top: -30px;
+}
+.cover .lighthouse .shan img:nth-of-type(2) {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: breathe;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+.cover .ft-tx {
+  position: absolute;
+  bottom: 45px;
+  left: 25px;
+}
+@-webkit-keyframes breathe {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.cloud img {
+  position: absolute;
+  z-index: 1;
+}
+.step1 {
+  background: url(../img/cover/bg.png) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step1 .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.step1 .mask img {
+  position: absolute;
+}
+.step1 .mask img:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+.step1 .lighthouse {
+  position: absolute;
+  top: 527px;
+  top: 40px;
+  left: 39px;
+}
+.step1 .lighthouse span {
+  position: absolute;
+}
+.step1 .lighthouse span img {
+  position: absolute;
+  z-index: 2;
+}
+.step1 .lighthouse span b {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../img/other/light.png) no-repeat center center;
+  background-size: cover;
+  z-index: 2;
+  display: none;
+}
+.step1 .lighthouse span:nth-of-type(1) {
+  left: 72px;
+  top: 10px;
+}
+.step1 .lighthouse span:nth-of-type(1) b {
+  left: 30px;
+  top: -30px;
+}
+.step1 .lighthouse span:nth-of-type(2) {
+  left: 449px;
+  top: 94px;
+}
+.step1 .lighthouse span:nth-of-type(2) b {
+  left: 85px;
+  top: -30px;
+}
+.step1 .lighthouse span:nth-of-type(3) {
+  left: 111px;
+  top: 282px;
+  z-index: 10;
+}
+.step1 .lighthouse span:nth-of-type(3) b {
+  left: 180px;
+  top: -30px;
+}
+.step1 .lighthouse .shan img:nth-of-type(2) {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: breathe;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+.step1 .lighthouse img:nth-of-type(2) {
+  display: none;
+}
+.step1 .lighthouse span b {
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+.step1 .lighthouse span:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+.step1 .lighthouse span:nth-of-type(1) b {
+  left: -6px;
+  top: -20px;
+}
+.step1 .lighthouse span:nth-of-type(2) {
+  left: 85px;
+  top: 0;
+}
+.step1 .lighthouse span:nth-of-type(2) b {
+  left: -6px;
+  top: -20px;
+}
+.step1 .lighthouse span:nth-of-type(3) {
+  left: 160px;
+  top: 0;
+}
+.step1 .lighthouse span:nth-of-type(3) b {
+  left: -6px;
+  top: -20px;
+}
+.step1 .lighthouse .off b {
+  display: none;
+}
+.step1 .lighthouse .off img:nth-of-type(2) {
+  display: block;
+}
+.step1 .txt {
+  position: absolute;
+  left: 81px;
+  top: 308px;
+}
+.step1 .drag {
+  position: absolute;
+  top: 227px;
+  left: 95px;
+  right: 71px;
+  z-index: 4;
+}
+.step1 .drag span {
+  position: absolute;
+}
+.step1 .drag span img {
+  position: absolute;
+}
+.step1 .drag span img:nth-of-type(1) {
+  z-index: 2;
+}
+.step1 .drag span img:nth-of-type(2) {
+  z-index: 1;
+}
+.step1 .drag span:nth-of-type(1) img:nth-of-type(2) {
+  left: 187px;
+  top: 15px;
+}
+.step1 .drag span:nth-of-type(2) {
+  right: 0;
+  top: 350px;
+}
+.step1 .drag span:nth-of-type(2) img:nth-of-type(1) {
+  right: 0;
+  top: 0px;
+}
+.step1 .drag span:nth-of-type(2) img:nth-of-type(2) {
+  right: 197px;
+  top: 20px;
+}
+.step1 .drag span:nth-of-type(3) {
+  left: 0;
+  top: 736px;
+}
+.step1 .drag span:nth-of-type(3) img:nth-of-type(2) {
+  left: 201px;
+  top: 19px;
+}
+.step1 .dragTxt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.step1 .dragTxt img {
+  position: absolute;
+  opacity: 0;
+}
+.step1 .dragTxt img:nth-of-type(1) {
+  left: 176px;
+  top: 246px;
+}
+.step1 .dragTxt img:nth-of-type(2) {
+  left: 215px;
+  top: 605px;
+}
+.step1 .dragTxt img:nth-of-type(3) {
+  left: 148px;
+  top: 981px;
+}
+.ok {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  display: none;
+}
+.ok .inner {
+  width: 651px;
+  height: 712px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -325.5px;
+  margin-top: -356px;
+}
+.ok .inner img:nth-of-type(2) {
+  position: absolute;
+  left: 96px;
+  top: 540px;
+}
+.ok-ex1 .inner {
+  width: 654px;
+  height: 929px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -327px;
+  margin-top: -464.5px;
+}
+.ok-ex1 .inner img:nth-of-type(2) {
+  top: 736px;
+  left: 95px;
+}
+.step2 {
+  background: url(../img/2/bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step2 .lighthouse {
+  position: absolute;
+  top: 527px;
+  top: 40px;
+  left: 39px;
+}
+.step2 .lighthouse span {
+  position: absolute;
+}
+.step2 .lighthouse span img {
+  position: absolute;
+  z-index: 2;
+}
+.step2 .lighthouse span b {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../img/other/light.png) no-repeat center center;
+  background-size: cover;
+  z-index: 2;
+  display: none;
+}
+.step2 .lighthouse span:nth-of-type(1) {
+  left: 72px;
+  top: 10px;
+}
+.step2 .lighthouse span:nth-of-type(1) b {
+  left: 30px;
+  top: -30px;
+}
+.step2 .lighthouse span:nth-of-type(2) {
+  left: 449px;
+  top: 94px;
+}
+.step2 .lighthouse span:nth-of-type(2) b {
+  left: 85px;
+  top: -30px;
+}
+.step2 .lighthouse span:nth-of-type(3) {
+  left: 111px;
+  top: 282px;
+  z-index: 10;
+}
+.step2 .lighthouse span:nth-of-type(3) b {
+  left: 180px;
+  top: -30px;
+}
+.step2 .lighthouse .shan img:nth-of-type(2) {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: breathe;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+.step2 .lighthouse img:nth-of-type(2) {
+  display: none;
+}
+.step2 .lighthouse span b {
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+.step2 .lighthouse span:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+.step2 .lighthouse span:nth-of-type(1) b {
+  left: -6px;
+  top: -20px;
+}
+.step2 .lighthouse span:nth-of-type(2) {
+  left: 85px;
+  top: 0;
+}
+.step2 .lighthouse span:nth-of-type(2) b {
+  left: -6px;
+  top: -20px;
+}
+.step2 .lighthouse span:nth-of-type(3) {
+  left: 160px;
+  top: 0;
+}
+.step2 .lighthouse span:nth-of-type(3) b {
+  left: -6px;
+  top: -20px;
+}
+.step2 .lighthouse .off b {
+  display: none;
+}
+.step2 .lighthouse .off img:nth-of-type(2) {
+  display: block;
+}
+.step2 .title {
+  position: absolute;
+  left: 100px;
+  top: 211px;
+}
+.step2 .kuang {
+  width: 553px;
+  height: 608px;
+  background: url(../img/2/kuang.png);
+  position: absolute;
+  left: 78px;
+  top: 370px;
+}
+.step2 .kuang b {
+  width: 100%;
+  height: 100%;
+  background: url(../img/2/kuang_mask.png) no-repeat center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.step2 .kuang .tx {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.step2 .kuang .picfile {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.step2 .tips {
+  position: absolute;
+  width: 100%;
+  top: 990px;
+}
+.step2 .tips img {
+  text-align: center;
+  margin: 0 auto;
+}
+.step2 input.btn {
+  background: url(../img/2/btn.png);
+  width: 598px;
+  height: 118px;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 75px;
+  top: 1056px;
+}
+.step2 input.btn:active {
+  opacity: 0.9;
+}
+.step3 {
+  background: url(../img/cover/bg.png) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step3 .numToimg img {
+  display: inline-block;
+}
+.step3 .lighthouse {
+  position: absolute;
+  top: 527px;
+  top: 40px;
+  left: 39px;
+}
+.step3 .lighthouse span {
+  position: absolute;
+}
+.step3 .lighthouse span img {
+  position: absolute;
+  z-index: 2;
+}
+.step3 .lighthouse span b {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../img/other/light.png) no-repeat center center;
+  background-size: cover;
+  z-index: 2;
+  display: none;
+}
+.step3 .lighthouse span:nth-of-type(1) {
+  left: 72px;
+  top: 10px;
+}
+.step3 .lighthouse span:nth-of-type(1) b {
+  left: 30px;
+  top: -30px;
+}
+.step3 .lighthouse span:nth-of-type(2) {
+  left: 449px;
+  top: 94px;
+}
+.step3 .lighthouse span:nth-of-type(2) b {
+  left: 85px;
+  top: -30px;
+}
+.step3 .lighthouse span:nth-of-type(3) {
+  left: 111px;
+  top: 282px;
+  z-index: 10;
+}
+.step3 .lighthouse span:nth-of-type(3) b {
+  left: 180px;
+  top: -30px;
+}
+.step3 .lighthouse .shan img:nth-of-type(2) {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: breathe;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+.step3 .lighthouse img:nth-of-type(2) {
+  display: none;
+}
+.step3 .lighthouse span b {
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+.step3 .lighthouse span:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+.step3 .lighthouse span:nth-of-type(1) b {
+  left: -6px;
+  top: -20px;
+}
+.step3 .lighthouse span:nth-of-type(2) {
+  left: 85px;
+  top: 0;
+}
+.step3 .lighthouse span:nth-of-type(2) b {
+  left: -6px;
+  top: -20px;
+}
+.step3 .lighthouse span:nth-of-type(3) {
+  left: 160px;
+  top: 0;
+}
+.step3 .lighthouse span:nth-of-type(3) b {
+  left: -6px;
+  top: -20px;
+}
+.step3 .lighthouse .off b {
+  display: none;
+}
+.step3 .lighthouse .off img:nth-of-type(2) {
+  display: block;
+}
+.step3 h2 {
+  margin-top: 105px;
+  width: 100%;
+  position: absolute;
+}
+.step3 h2 img {
+  margin: 0 auto;
+}
+.step3 h3 {
+  text-align: center;
+  background: url(../img/3/bg1.png) no-repeat center center;
+  height: 72px;
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  margin-top: 260px;
+}
+.step3 h3 img {
+  display: inline-block;
+}
+.step3 .pic {
+  position: absolute;
+  top: 370px;
+  width: 100%;
+}
+.step3 .pic img {
+  margin: 0 auto;
+}
+.step3 .btn {
+  position: absolute;
+  top: 970px;
+  width: 100%;
+}
+.step3 .btn img {
+  margin: 0 auto;
+}
+.step4 {
+  background: url(../img/2/bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step4 h2 {
+  margin-top: 100px;
+  width: 100%;
+  position: absolute;
+}
+.step4 h2 img {
+  margin: 0 auto;
+}
+.step4 .lighthouse {
+  position: absolute;
+  top: 427px;
+  left: 100px;
+}
+.step4 .lighthouse span {
+  float: left;
+  margin-right: 50px;
+  position: relative;
+}
+.step4 .lighthouse span img {
+  position: relative;
+  z-index: 2;
+}
+.step4 .lighthouse span b {
+  position: absolute;
+  left: 25px;
+  top: -30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: -webkit-radial-gradient(#ffd700 0, transparent 80%);
+  z-index: 1;
+  display: block;
+}
+.step4 .lighthouse span:nth-of-type(2) {
+  margin-top: 20px;
+}
+.step4 .lighthouse span:nth-of-type(3) {
+  margin-top: 35px;
+}
+.step4 .txt {
+  text-align: center;
+  position: absolute;
+  margin-top: 766px;
+  width: 100%;
+}
+.step4 .txt p {
+  padding: 10px 0;
+}
+.step4 .txt img {
+  display: inline-block;
+}
+.step4 .btn {
+  position: absolute;
+  top: 970px;
+  width: 100%;
+}
+.step4 .btn img {
+  margin: 0 auto;
+}
+.step4 .btn img:active {
+  opacity: 0.8;
+}
+.step5 {
+  background: url(../img/2/bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step5 .kuang {
+  background: url(../img/5/kuang.png);
+  width: 666px;
+  height: 901px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+}
+.step5 .kuang .randomImg {
+  margin: 0 auto;
+  margin-top: 68px;
+  width: 547px;
+  height: 352px;
+  background: #fff;
+}
+.step5 .kuang .randomImg img {
+  margin: 0 auto;
+}
+.step5 .kuang h3 {
+  width: 547px;
+  margin: 30px auto ;
+  margin-top: 50px;
+}
+.step5 .kuang ul {
+  width: 547px;
+  margin: 0 auto;
+}
+.step5 .kuang ul li {
+  position: relative;
+  padding: 15px 0;
+  overflow: hidden;
+  zoom: 1;
+}
+.step5 .kuang ul li input {
+  position: absolute;
+  left: -50px;
+}
+.step5 .kuang ul li b {
+  background: url(../img/5/radio_off.png);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.step5 .kuang ul li input:checked ~ b {
+  background: url(../img/5/radio_on.png);
+}
+.step5 .btn {
+  position: absolute;
+  top: 970px;
+  width: 100%;
+  text-align: center;
+}
+.step5 .btn img {
+  margin: 0 auto;
+}
+.step5 .btn img:active {
+  opacity: 0.8;
+}
+.step5 .note {
+  font-size: 24px;
+  line-height: 1.5;
+  position: absolute;
+  top: 1120px;
+  width: 100%;
+  text-align: center;
+}
+.step6 {
+  background: url(../img/2/bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step6 .kuang {
+  background: url(../img/6/kuang.png);
+  width: 663px;
+  height: 793px;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+}
+.step6 .kuang ::-moz-placeholder {
+  color: #8d6b37;
+}
+.step6 .kuang ::-webkit-input-placeholder {
+  color: #8d6b37;
+}
+.step6 .kuang :-ms-input-placeholder {
+  color: #8d6b37;
+}
+.step6 .kuang label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15%;
+  position: relative;
+  overflow: hidden;
+  margin-right: 30px;
+  height: 50px;
+  padding: 22px 0;
+}
+.step6 .kuang label input {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  color: #8d6b37;
+}
+.step6 .kuang label span {
+  background: url(../img/5/radio_off.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.step6 .kuang label input:checked ~ span {
+  background: url(../img/5/radio_on.png);
+}
+.step6 .kuang input[type="text"] {
+  width: 100%;
+  height: 95px;
+  background: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 34px;
+  color: #8d6b37;
+  font-weight: bold;
+}
+.step6 .kuang select {
+  padding: 22px 0;
+  width: 100%;
+  border: none;
+  margin-top: 22px;
+  font-size: 34px;
+  text-indent: 20px;
+  color: #8d6b37;
+  font-weight: bold;
+  background: transparent url(../img/6/arr.png) no-repeat 95% center;
+  outline: none;
+}
+.step6 .kuang p {
+  width: 350px;
+  margin-left: 255px;
+}
+.step6 .kuang p:nth-of-type(1) {
+  padding-top: 88px;
+}
+.step6 .kuang p:nth-of-type(4) {
+  padding-top: 52px;
+}
+.step6 .kuang p:nth-of-type(5) {
+  padding-top: 28px;
+}
+.step6 .btn {
+  position: absolute;
+  top: 970px;
+  width: 100%;
+}
+.step6 .btn img {
+  margin: 0 auto;
+}
+.step6 .btn img:active {
+  opacity: 0.8;
+}
+.step7 {
+  background: url(../img/7/bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100%;
+  display: none;
+}
+.step7 .cert {
+  background: url(../img/7/bg-zhengshu.jpg);
+  padding: 290px 45px 0 45px;
+  width: 630px;
+  height: 699px;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+}
+.step7 .cert p {
+  text-align: justify;
+  font-size: 36px;
+  line-height: 1.6;
+  color: #4e3824;
+  margin-bottom: 10px;
+}
+.step7 .cert p span {
+  border-bottom: 1px solid #4e3824;
+}
+.step7 .btn {
+  margin-top: 50px;
+}
+.step7 .btn img {
+  margin: 0 auto;
+}
+.step7 .btn img:active {
+  opacity: 0.8;
+}
+.step7 .share {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+.step7 .share .heart {
+  position: fixed;
+  z-index: 9;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  height: auto;
+  display: none;
+}
+.alert {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 999;
+}
+.alertInner {
+  width: 460px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  position: fixed;
+  left: 50%;
+  margin-left: -230px;
+}
+.alertInner h2 {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 28px;
+  color: #252525;
+}
+.alertInner a {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  font-size: 32px;
+  color: #005bac;
+  text-align: center;
+}

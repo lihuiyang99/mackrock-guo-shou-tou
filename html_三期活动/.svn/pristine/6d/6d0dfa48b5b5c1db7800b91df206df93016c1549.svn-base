@@ -1,0 +1,15 @@
+/* music */
+    @-webkit-keyframes reverseRotataZ{
+        0%{-webkit-transform: rotateZ(0deg);}
+        100%{-webkit-transform: rotateZ(-360deg);}
+    }
+    @-webkit-keyframes rotataZ{
+        0%{-webkit-transform: rotateZ(0deg);}
+        100%{-webkit-transform: rotateZ(360deg);}
+    }
+    #musicControl { position:fixed;right:20px;top:60px;margin-top:0;display:inline-block;z-index:99999999; border: 3px solid #fff; border-radius: 50%;}
+    #musicControl a { display:block;width:60px;height:60px;overflow:hidden;background:url(../../img/music.png); background-size: 100%; }
+    #musicControl a audio{width:100%;height:60px;}
+    #musicControl a.stop { background-position:left bottom;}
+    #musicControl a.on { background-position:0px 0px;-webkit-animation: reverseRotataZ 1.2s linear infinite;}
+    #music_play_filter{width:100%;height:100%;overflow:hidden;position:fixed;top:0;left:0;z-index:99999998;}

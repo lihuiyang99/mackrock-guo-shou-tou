@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>人寿二期活动</title>
+		<link rel="stylesheet" type="text/css" href="asset/css/style.less" />
+	</head>
+
+	<body>
+		<div class="loading"><span></span></div>
+		<div class="wrap">
+			<!--封面页-->
+			<!--三种状态：url后面配置&cover=0/1/2-->
+			<div class="cover">
+				<img class="earth" src="asset/img/cover/earth.png" />
+				<h2 class="title">
+					<img src="asset/img/cover/tit1.png" />
+					<img src="asset/img/cover/tit2.png" />
+					<img src="asset/img/cover/heart.png" />
+				</h2>
+				<div class="lighthouse">
+					<span><b></b><img src="asset/img/cover/t1-c.png"/><img src="asset/img/cover/t1-g.png"/></span>
+					<span><b></b><img src="asset/img/cover/t2-c.png"/><img src="asset/img/cover/t2-g.png"/></span>
+					<span><b></b><img src="asset/img/cover/t3-c.png"/><img src="asset/img/cover/t3-g.png"/></span>
+				</div>
+				<div class="cloud">
+					<img style="top:937px; z-index: 3;" src="asset/img/cover/cloud_rb.png" />
+					<img style="top:855px; z-index: 3;" src="asset/img/cover/cloud_lb.png" />
+					<img style="top:360px" src="asset/img/cover/cloud_c1.png" />
+					<img style="top:550px" src="asset/img/cover/cloud_cl.png" />
+					<img style="top:536px" src="asset/img/cover/cloud_cr.png" />
+					<img style="top:380px; z-index: 1;" src="asset/img/cover/cloud_c2.png" />
+					<img style="top:846px; z-index: 1;" src="asset/img/cover/cloud_rb1.png" />
+					<img style="top:1224px" src="asset/img/cover/cloud_ft.png" />
+				</div>
+				<img class="ft-tx" src="asset/img/cover/txt-ft.png" />
+			</div>
+			<!--第一关-->
+			<div class="step1">
+				<div class="mask">
+					<img src="asset/img/1/gray1.png" />
+					<img src="asset/img/1/gray2.png" />
+					<img src="asset/img/1/gray3.png" />
+				</div>
+				<div class="cloud">
+					<img style="top:937px; z-index: 3;" src="asset/img/cover/cloud_rb.png" />
+					<img style="top:855px; z-index: 3;" src="asset/img/cover/cloud_lb.png" />
+					<img style="top:360px" src="asset/img/cover/cloud_c1.png" />
+					<img style="top:550px" src="asset/img/cover/cloud_cl.png" />
+					<img style="top:536px" src="asset/img/cover/cloud_cr.png" />
+					<img style="top:380px; z-index: 1;" src="asset/img/cover/cloud_c2.png" />
+					<img style="top:846px; z-index: 1;" src="asset/img/cover/cloud_rb1.png" />
+					<img style="top:1224px" src="asset/img/cover/cloud_ft.png" />
+					<img style="top:46px" src="asset/img/1/cloud_top.png" />
+				</div>
+				<div class="lighthouse">
+					<span class="off"><b></b><img src="asset/img/1/t1-c.png"/><img src="asset/img/1/t1-g.png"/></span>
+					<span class="off"><b></b><img src="asset/img/1/t2-c.png"/><img src="asset/img/1/t2-g.png"/></span>
+					<span class="off"><b></b><img src="asset/img/1/t3-c.png"/><img src="asset/img/1/t3-g.png"/></span>
+				</div>
+				<img class="txt" src="asset/img/1/txt0.png" />
+				<div class="dragTxt">
+					<img src="asset/img/1/txt1.png" />
+					<img src="asset/img/1/txt2.png" />
+					<img src="asset/img/1/txt1.png" />
+				</div>
+				<div class="drag">
+					<span><img src="asset/img/1/drag1.png"/><img src="asset/img/1/drag1_arr.png"/></span>
+					<span><img src="asset/img/1/drag2.png"/><img src="asset/img/1/drag2_arr.png"/></span>
+					<span><img src="asset/img/1/drag3.png"/><img src="asset/img/1/drag3_arr.png"/></span>
+				</div>
+				<div class="ok">
+					<div class="inner">
+						<img src="asset/img/1/ok.png" />
+						<img data-url="?&cover=1" src="asset/img/1/btn.png" />
+					</div>
+				</div>
+			</div>
+			<!--第二关-->
+			<div class="step2">
+				<div class="lighthouse">
+					<span><b></b><img src="asset/img/1/t1-c.png"/><img src="asset/img/1/t1-g.png"/></span>
+					<span class="off"><b></b><img src="asset/img/1/t2-c.png"/><img src="asset/img/1/t2-g.png"/></span>
+					<span class="off"><b></b><img src="asset/img/1/t3-c.png"/><img src="asset/img/1/t3-g.png"/></span>
+				</div>
+				<img class="title" src="asset/img/2/tit.png" />
+				<div class="kuang">
+					<b></b>
+					<div class="tx" style="background-size: contain;-webkit-mask: url(asset/img/2/kuang_mask.png) no-repeat;"></div>
+					<input type="file" accept="image/*" class="picfile" />
+				</div>
+				<input type="submit" value="" class="btn dn" />
+				<p class="tips"><img src="asset/img/2/tips.png"/></p>
+				<div class="ok">
+					<div class="inner">
+						<img src="asset/img/2/ok.png" />
+						<img data-url="?&cover=2" src="asset/img/1/btn.png" />
+					</div>
+				</div>
+			</div>
+			<!--第三关-->
+			<div class="step3">
+				<div class="lighthouse">
+					<span><b></b><img src="asset/img/1/t1-c.png"/><img src="asset/img/1/t1-g.png"/></span>
+					<span><b></b><img src="asset/img/1/t2-c.png"/><img src="asset/img/1/t2-g.png"/></span>
+					<span class="off"><b></b><img src="asset/img/1/t3-c.png"/><img src="asset/img/1/t3-g.png"/></span>
+				</div>
+				<h2><img src="asset/img/3/title.png"/></h2>
+				<h3><img src="asset/img/3/t1.png"/><b class="numToimg" data-num="99999"></b><img src="asset/img/3/t2.png"/></h3>
+				<p class="pic"><img src="asset/img/3/p1.png" /></p>
+				<p class="btn"><img src="asset/img/3/btn.png" /></p>
+				<div class="ok ok-ex1">
+					<div class="inner">
+						<img src="asset/img/3/ok.png" />
+						<img src="asset/img/3/btn1.png" />
+					</div>
+				</div>
+			</div>
+			<!--闯关成功-->
+			<!--<div class="step4">
+				<h2><img src="asset/img/4/title.png"/></h2>
+				<div class="lighthouse">
+					<span><b></b><img src="asset/img/4/t1-c.png"/></span>
+					<span><b></b><img src="asset/img/4/t2-c.png"/></span>
+					<span><b></b><img src="asset/img/4/t3-c.png"/></span>
+				</div>
+				<div class="txt">
+					<p><img src="asset/img/4/txt.png" /></p>
+					<p><img src="asset/img/4/txt1.png" /><b class="numToimg" data-num="9999"></b><img src="asset/img/4/txt2.png" /></p>
+				</div>
+				<p class="btn"><img src="asset/img/4/btn.png" /></p>
+			</div>-->
+			<!--选择捐赠学校-->
+			<div class="step5">
+				<div class="kuang">
+					<div class="randomImg"><img src="" /></div>
+					<h3><img src="asset/img/5/title.png"/></h3>
+					<ul>
+						<li><label for="s1"><input type="radio" name="s" id="s1" value="1" checked="" /><b></b><img title="齐西中国人寿博爱小学" src="asset/img/5/txt1.png"/></label></li>
+						<li><label for="s2"><input type="radio" name="s" id="s2" value="2" /><b></b><img title="中国人寿长征桃园小学" src="asset/img/5/txt2.png"/></label></li>
+						<li><label for="s3"><input type="radio" name="s" id="s3" value="3" /><b></b><img title="瑞金市金星人寿长征希望小学" src="asset/img/5/txt3.png"/></label></li>
+						<li><label for="s4"><input type="radio" name="s" id="s4" value="4" /><b></b><img title="中国人寿涿州市上庄小学" src="asset/img/5/txt4.png"/></label></li>
+						<li><label for="s5"><input type="radio" name="s" id="s5" value="5" /><b></b><img title="福新乡黎亮小学" src="asset/img/5/txt5.png"/></label></li>
+					</ul>
+				</div>
+				<p class="btn"><img src="asset/img/5/btn.png" /></p>
+				<p class="note">礼品捐赠详情将在中国人寿财险<br />官方微信服务号后续发布的新闻中推送</p>
+			</div>
+
+			<!--添写个人信息-->
+			<div class="step6">
+				<div class="kuang">
+					<p><input type="text" placeholder="捐赠人姓名" /></p>
+					<p><label for="nan"><input type="radio" id="nan" name="sex" /><span></span><img src="asset/img/6/1.png"/></label><label for="nv"><input type="radio" id="nv" name="sex" /><span></span><img src="asset/img/6/2.png"/></label></p>
+
+					<p><input type="text" placeholder="捐赠人手机号" /></p>
+					<p>
+						<select name="">
+								<option value="">请选择省份</option>
+							</select>
+					</p>
+					<p>
+						<select name="">
+								<option value="">请选择市县</option>
+							</select>
+					</p>
+				</div>
+				<p class="btn"><img src="asset/img/6/btn.png" /></p>
+			</div>
+			<!--证书页-->
+			<div class="step7">
+				<div class="cert">
+					<p>感谢您积极参与“为公益点亮，与健康同行”2016国寿客户节活动，用实际行动支持公益、传递爱心。活动中您<span>为中国人寿长征桃园小学</span>的孩子们捐赠了第<span>23</span>份爱心礼物。</p>
+					<p>特发此证，谨作纪念！</p>
+				</div>
+				<p class="btn"><img src="asset/img/7/btn1.png" /></p>
+				<p class="btn dn">
+					<a href="main.html?cover=0"><img src="asset/img/7/btn2.png" /></a>
+				</p>
+				<div class="share">
+					<img class="heart" src="asset/img/7/share.png" />
+				</div>
+			</div>
+		</div>
+
+		<span id="musicControl">
+        <a id="mc_play" class="stop on" onclick="play_music();">
+            <audio id="musicfx" loop="loop" autoplay="autoplay">
+                <source src="asset/plug/music/bg.mp3" type="audio/mpeg">
+            </audio>
+        </a>
+ 		</span>
+
+		<script src="asset/plug/JQ/jquery-1.10.2.min.js"></script>
+		<script src="asset/plug/touchSwipe/jquery.touchSwipe.min.js"></script>
+		<script src="asset/plug/gsap/TweenMax.min.js"></script>
+		<script src="asset/plug/PxLoader/PxLoader.js"></script>
+		<script src="asset/plug/PxLoader/PxLoaderImage.js"></script>
+		<script src="asset/plug/localResizeIMG-master/lrz.all.bundle.js"></script>
+		<script src="asset/plug/localResizeIMG-master/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="asset/plug/music/music.css" />
+		<script src="asset/plug/music/music.js"></script>
+		<script src="asset/js/common.js"></script>
+	</body>
+
+</html>
